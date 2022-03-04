@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T12:11:16.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="Lstv_I9R78huzkvieigt" version="16.6.6" type="github"><diagram id="-xiKRd-Bos9wqLAC9QQs" name="Page-1">7Vdrb5swFP01kbYPlXgkNPnYJH1J6zo1kbavDtyCV+OLjMnr1+8aTAgh7Tqp7ap1UhTw8bWNz7n3GHr+JF1fKpYlNxiB6HlOtO75057nuY7n9czPiTYV0u8HFRArHtmgBpjxLdQjLVrwCPJWoEYUmmdtMEQpIdQtjCmFq3bYPYr2qhmLoQPMQia66Hce6aRChwOnwa+Ax0m9suvYnpTVwRbIExbhag/yz3v+RCHq6i5dT0AY8mpeqnEXj/TuHkyB1M8ZcOq56/X00h3KH+P05ERsvm6Dk341y5KJwm7YPqze1AxARITYJiqdYIySifMGHSssZARmGYdaTcwXxIxAl8CfoPXGqssKjQQlOhW2t1rTLPTo3iyUY6FCeGJDdY4wFYN+Is7fKUCpC5iCVhsap0AwzZft52A2h+JdXEMz3Vim/4B1t8P6FJac9uU5U6aZSXuQoJgmUml5af61YjJPua4wXIKiy9V8/o2ewFxmdJ1PqBUI2vd4Qd1BbO4+zUBR9OeOsI1sRoNVwjXMMlayu6JiPiYRzaNh/bRIXVLtgL4tBOsE7qltr5q6ckcWS/Zqaui8kgxeR4azUBesNDCrx8Udy7MFKLXJOLVuMHyopTpgk3jRbcqY4LGk+5D4IbX8sWGPk7Wc2Y6UR1FVQJDzLVuUU5kSypBLXe52MO4NpmYuqpm8Kh8zda4VPsAEBdK8U4nSzHLPhTiAXkA1r62aN+iqtovZV817LdVO/zXL8p9pWcHftCy/w/r19e2ckDGujQNhro172doIWGr8Qy7yrOTq0JPugBkXiyqzK3IuY7oagQSXD6WYRcSRJp5SxZVWx7Js54VZkSfVEJLFc862hYIjxjcRnMR4D8b33pxv0FHz9vED5aMY3eH5NDyi0uAtnS7onk9Vpjszjcq8uHaMTwh6MYbfZ3W7BF4ix/1B+5w4Qt6xYyJ4LfKG/1O8K9LoIMWPqfSmKT7qpni0ZMRxmBB87IhJWUje/3Hev/zRM17AnJfRjJrN92jZt/dV75//Ag==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-04T12:13:50.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="IXTLQySzZMf3_tP1SPe1" version="16.6.6" type="github">
+  <diagram id="-xiKRd-Bos9wqLAC9QQs" name="Page-1">
+    <mxGraphModel dx="1022" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="721xxDG18nXBm--lyNz6-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="721xxDG18nXBm--lyNz6-1" target="721xxDG18nXBm--lyNz6-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="721xxDG18nXBm--lyNz6-1" value="Device Data generated and transmitted over HTTP/HTTPS/TCP&lt;br&gt;(Server)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="170" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="721xxDG18nXBm--lyNz6-2" value="Actual device/Raspberrypi/MockDevice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="250" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="721xxDG18nXBm--lyNz6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="721xxDG18nXBm--lyNz6-3" target="721xxDG18nXBm--lyNz6-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="721xxDG18nXBm--lyNz6-3" value="IIOT Box/Host Device&amp;nbsp;&lt;br&gt;Read data using Edgelink studio/Docker app and pushing to Azure&lt;br&gt;(Client)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="170" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="721xxDG18nXBm--lyNz6-5" value="Over HTTP/HTTPS/TCP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="240" y="180" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="721xxDG18nXBm--lyNz6-6" value="Azure Storage" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="435" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="721xxDG18nXBm--lyNz6-8" value="Acquired Parameter send&lt;br&gt;Over HTTP/HTTPS/TCP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490" y="115" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="721xxDG18nXBm--lyNz6-9" value="Advantech IIOT Box/Host machine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="390" y="250" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
